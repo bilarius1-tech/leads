@@ -30,8 +30,8 @@ export type PartnerFilters = {
 };
 
 const WORD_MAX = 40;
-const LIST_MAX = 20;
-const LIST_CHARS = 400;
+const LIST_MAX = 40;
+const LIST_CHARS = 800;
 
 function sanitizeWordList(raw: unknown): string {
   const parts = String(raw || "")
